@@ -1,0 +1,19 @@
+#board{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  width: 90vmin;
+  height: 90Vmin;
+}
+div div{
+  border:1px solid black;
+  font: 20vmin helvetica;
+  text-align: center;
+
+}
+
+button{
+  float: right;
+  font-size: 15vmin;
+  margin-top: 30vmin;
+}
